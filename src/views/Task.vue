@@ -102,7 +102,7 @@ const addTask = () => {
         <li v-for="task in tasks" :key="task.id" class="task-item">
           <strong>{{ task.name }}</strong>
           <p>{{ task.description }}</p>
-          <span>Priority: {{ task.priority }}</span>
+          <span>Priority: {{ task.priority }}</span><br>
           <span>Due: {{ task.dueDate }}</span>
         </li>
       </ul>
